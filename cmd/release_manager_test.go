@@ -7,12 +7,12 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	fakecmd "github.com/cloudfoundry/bosh-cli/v7/cmd/cmdfakes"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	boshrel "github.com/cloudfoundry/bosh-cli/v7/release"
-	fakerel "github.com/cloudfoundry/bosh-cli/v7/release/releasefakes"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	fakecmd "github.com/shono09835/bosh-cli/v7/cmd/cmdfakes"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	boshrel "github.com/shono09835/bosh-cli/v7/release"
+	fakerel "github.com/shono09835/bosh-cli/v7/release/releasefakes"
 )
 
 var _ = Describe("ReleaseManager", func() {

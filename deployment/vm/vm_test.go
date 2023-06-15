@@ -4,26 +4,26 @@ import (
 	"errors"
 	"time"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/deployment/vm"
+	. "github.com/shono09835/bosh-cli/v7/deployment/vm"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
 	biagentclient "github.com/cloudfoundry/bosh-agent/agentclient"
 	bias "github.com/cloudfoundry/bosh-agent/agentclient/applyspec"
-	bicloud "github.com/cloudfoundry/bosh-cli/v7/cloud"
-	biconfig "github.com/cloudfoundry/bosh-cli/v7/config"
-	bidisk "github.com/cloudfoundry/bosh-cli/v7/deployment/disk"
-	bideplmanifest "github.com/cloudfoundry/bosh-cli/v7/deployment/manifest"
+	bicloud "github.com/shono09835/bosh-cli/v7/cloud"
+	biconfig "github.com/shono09835/bosh-cli/v7/config"
+	bidisk "github.com/shono09835/bosh-cli/v7/deployment/disk"
+	bideplmanifest "github.com/shono09835/bosh-cli/v7/deployment/manifest"
 	"github.com/cloudfoundry/bosh-utils/logger/loggerfakes"
 	biproperty "github.com/cloudfoundry/bosh-utils/property"
 	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
 
 	fakebiagentclient "github.com/cloudfoundry/bosh-agent/agentclient/fakes"
-	fakebicloud "github.com/cloudfoundry/bosh-cli/v7/cloud/fakes"
-	fakebiconfig "github.com/cloudfoundry/bosh-cli/v7/config/fakes"
-	fakebidisk "github.com/cloudfoundry/bosh-cli/v7/deployment/disk/fakes"
-	fakebivm "github.com/cloudfoundry/bosh-cli/v7/deployment/vm/fakes"
-	fakebiui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	fakebicloud "github.com/shono09835/bosh-cli/v7/cloud/fakes"
+	fakebiconfig "github.com/shono09835/bosh-cli/v7/config/fakes"
+	fakebidisk "github.com/shono09835/bosh-cli/v7/deployment/disk/fakes"
+	fakebivm "github.com/shono09835/bosh-cli/v7/deployment/vm/fakes"
+	fakebiui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 )
 
 var _ = Describe("VM", func() {

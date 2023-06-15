@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	boshcmd "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
-	boshtbl "github.com/cloudfoundry/bosh-cli/v7/ui/table"
+	boshcmd "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
+	boshtbl "github.com/shono09835/bosh-cli/v7/ui/table"
 )
 
 type ConfigDiffTable struct {

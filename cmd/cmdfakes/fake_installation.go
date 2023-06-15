@@ -1,7 +1,7 @@
 package cmdfakes
 
 import (
-	biinstallation "github.com/cloudfoundry/bosh-cli/v7/installation"
+	biinstallation "github.com/shono09835/bosh-cli/v7/installation"
 )
 
 type FakeInstallation struct {

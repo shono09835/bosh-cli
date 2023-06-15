@@ -3,13 +3,13 @@ package uaa_test
 import (
 	"errors"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/uaa"
+	. "github.com/shono09835/bosh-cli/v7/uaa"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/cloudfoundry/bosh-cli/v7/cmd/config/configfakes"
+	"github.com/shono09835/bosh-cli/v7/cmd/config/configfakes"
 
-	fakeuaa "github.com/cloudfoundry/bosh-cli/v7/uaa/uaafakes"
+	fakeuaa "github.com/shono09835/bosh-cli/v7/uaa/uaafakes"
 )
 
 var _ = Describe("AccessTokenSession", func() {

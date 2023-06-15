@@ -1,20 +1,20 @@
 package cmd_test
 
 import (
-	bicmd "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
+	bicmd "github.com/shono09835/bosh-cli/v7/cmd"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
 	"github.com/cppforlife/go-patch/patch"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	mock_cmd "github.com/cloudfoundry/bosh-cli/v7/cmd/mocks"
+	mock_cmd "github.com/shono09835/bosh-cli/v7/cmd/mocks"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
 	"github.com/golang/mock/gomock"
 
-	boshtpl "github.com/cloudfoundry/bosh-cli/v7/director/template"
-	fakebiui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	boshtpl "github.com/shono09835/bosh-cli/v7/director/template"
+	fakebiui "github.com/shono09835/bosh-cli/v7/ui/fakes"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 )
 
 var _ = Describe("StopEnvCmd", func() {

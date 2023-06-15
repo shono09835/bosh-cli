@@ -6,8 +6,8 @@ import (
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	boshsys "github.com/cloudfoundry/bosh-utils/system"
 
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
 )
 
 type Provider struct {

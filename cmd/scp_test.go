@@ -10,14 +10,14 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	mockagentclient "github.com/cloudfoundry/bosh-cli/v7/agentclient/mocks"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	"github.com/cloudfoundry/bosh-cli/v7/cmd/mocks"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	fakedir "github.com/cloudfoundry/bosh-cli/v7/director/directorfakes"
-	boshssh "github.com/cloudfoundry/bosh-cli/v7/ssh"
-	fakessh "github.com/cloudfoundry/bosh-cli/v7/ssh/sshfakes"
+	mockagentclient "github.com/shono09835/bosh-cli/v7/agentclient/mocks"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	"github.com/shono09835/bosh-cli/v7/cmd/mocks"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	fakedir "github.com/shono09835/bosh-cli/v7/director/directorfakes"
+	boshssh "github.com/shono09835/bosh-cli/v7/ssh"
+	fakessh "github.com/shono09835/bosh-cli/v7/ssh/sshfakes"
 )
 
 var _ = Describe("SCP", func() {

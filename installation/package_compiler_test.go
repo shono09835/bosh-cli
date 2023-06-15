@@ -7,12 +7,12 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/cloudfoundry/bosh-cli/v7/installation"
-	bireljob "github.com/cloudfoundry/bosh-cli/v7/release/job"
-	. "github.com/cloudfoundry/bosh-cli/v7/release/resource"
-	bistatejob "github.com/cloudfoundry/bosh-cli/v7/state/job"
-	mock_state_job "github.com/cloudfoundry/bosh-cli/v7/state/job/mocks"
-	fakebiui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	"github.com/shono09835/bosh-cli/v7/installation"
+	bireljob "github.com/shono09835/bosh-cli/v7/release/job"
+	. "github.com/shono09835/bosh-cli/v7/release/resource"
+	bistatejob "github.com/shono09835/bosh-cli/v7/state/job"
+	mock_state_job "github.com/shono09835/bosh-cli/v7/state/job/mocks"
+	fakebiui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 )
 
 var _ = Describe("PackageCompiler", func() {

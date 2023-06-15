@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strconv"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/ui/table"
+	. "github.com/shono09835/bosh-cli/v7/ui/table"
 
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 )

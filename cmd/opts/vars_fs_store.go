@@ -4,10 +4,10 @@ import (
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	boshsys "github.com/cloudfoundry/bosh-utils/system"
-	cfgtypes "github.com/cloudfoundry/config-server/types"
+	cfgtypes "github.com/shono09835/config-server/types"
 	"gopkg.in/yaml.v2"
 
-	boshtpl "github.com/cloudfoundry/bosh-cli/v7/director/template"
+	boshtpl "github.com/shono09835/bosh-cli/v7/director/template"
 )
 
 type VarsFSStore struct {

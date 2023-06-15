@@ -4,11 +4,11 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/release/pkg"
+	. "github.com/shono09835/bosh-cli/v7/release/pkg"
 
 	"errors"
 
-	"github.com/cloudfoundry/bosh-cli/v7/crypto/fakes"
+	"github.com/shono09835/bosh-cli/v7/crypto/fakes"
 	"github.com/cloudfoundry/bosh-utils/crypto/cryptofakes"
 	fakes2 "github.com/cloudfoundry/bosh-utils/system/fakes"
 )

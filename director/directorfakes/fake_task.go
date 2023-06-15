@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudfoundry/bosh-cli/v7/director"
+	"github.com/shono09835/bosh-cli/v7/director"
 )
 
 type FakeTask struct {

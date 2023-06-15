@@ -11,8 +11,8 @@ import (
 	boshfu "github.com/cloudfoundry/bosh-utils/fileutil"
 	boshsys "github.com/cloudfoundry/bosh-utils/system"
 
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	biui "github.com/cloudfoundry/bosh-cli/v7/ui"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	biui "github.com/shono09835/bosh-cli/v7/ui"
 )
 
 type Downloader interface {

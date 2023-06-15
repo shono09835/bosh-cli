@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshrel "github.com/cloudfoundry/bosh-cli/v7/release"
-	biui "github.com/cloudfoundry/bosh-cli/v7/ui"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshrel "github.com/shono09835/bosh-cli/v7/release"
+	biui "github.com/shono09835/bosh-cli/v7/ui"
 )
 
 type InspectLocalReleaseCmd struct {

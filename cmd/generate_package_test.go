@@ -6,9 +6,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	fakereldir "github.com/cloudfoundry/bosh-cli/v7/releasedir/releasedirfakes"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	fakereldir "github.com/shono09835/bosh-cli/v7/releasedir/releasedirfakes"
 )
 
 var _ = Describe("GeneratePackageCmd", func() {

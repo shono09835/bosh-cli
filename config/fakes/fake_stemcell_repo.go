@@ -3,8 +3,8 @@ package fakes
 import (
 	"fmt"
 
-	biconfig "github.com/cloudfoundry/bosh-cli/v7/config"
-	bitestutils "github.com/cloudfoundry/bosh-cli/v7/testutils"
+	biconfig "github.com/shono09835/bosh-cli/v7/config"
+	bitestutils "github.com/shono09835/bosh-cli/v7/testutils"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 )
 

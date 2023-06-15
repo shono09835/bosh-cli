@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 )
 

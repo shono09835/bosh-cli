@@ -1,7 +1,7 @@
 package installation
 
 import (
-	biinstallmanifest "github.com/cloudfoundry/bosh-cli/v7/installation/manifest"
+	biinstallmanifest "github.com/shono09835/bosh-cli/v7/installation/manifest"
 )
 
 type Installation interface {

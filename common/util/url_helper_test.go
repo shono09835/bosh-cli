@@ -1,7 +1,7 @@
 package util_test
 
 import (
-	urlhelper "github.com/cloudfoundry/bosh-cli/v7/common/util"
+	urlhelper "github.com/shono09835/bosh-cli/v7/common/util"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

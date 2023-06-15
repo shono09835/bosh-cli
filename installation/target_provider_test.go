@@ -1,13 +1,13 @@
 package installation_test
 
 import (
-	. "github.com/cloudfoundry/bosh-cli/v7/installation"
+	. "github.com/shono09835/bosh-cli/v7/installation"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
 	"path/filepath"
 
-	biconfig "github.com/cloudfoundry/bosh-cli/v7/config"
+	biconfig "github.com/shono09835/bosh-cli/v7/config"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
 	fakeuuid "github.com/cloudfoundry/bosh-utils/uuid/fakes"

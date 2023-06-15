@@ -1,28 +1,28 @@
 package instance_test
 
 import (
-	. "github.com/cloudfoundry/bosh-cli/v7/deployment/instance"
+	. "github.com/shono09835/bosh-cli/v7/deployment/instance"
 
 	"time"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	mock_instance_state "github.com/cloudfoundry/bosh-cli/v7/deployment/instance/state/mocks"
+	mock_instance_state "github.com/shono09835/bosh-cli/v7/deployment/instance/state/mocks"
 	"github.com/golang/mock/gomock"
 
 	bias "github.com/cloudfoundry/bosh-agent/agentclient/applyspec"
-	bicloud "github.com/cloudfoundry/bosh-cli/v7/cloud"
-	bidisk "github.com/cloudfoundry/bosh-cli/v7/deployment/disk"
-	bideplmanifest "github.com/cloudfoundry/bosh-cli/v7/deployment/manifest"
+	bicloud "github.com/shono09835/bosh-cli/v7/cloud"
+	bidisk "github.com/shono09835/bosh-cli/v7/deployment/disk"
+	bideplmanifest "github.com/shono09835/bosh-cli/v7/deployment/manifest"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 	"github.com/cloudfoundry/bosh-utils/logger/loggerfakes"
 
 	"github.com/cloudfoundry/bosh-agent/agentclient"
-	fakebidisk "github.com/cloudfoundry/bosh-cli/v7/deployment/disk/fakes"
-	fakebisshtunnel "github.com/cloudfoundry/bosh-cli/v7/deployment/sshtunnel/fakes"
-	fakebivm "github.com/cloudfoundry/bosh-cli/v7/deployment/vm/fakes"
-	fakebiui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	fakebidisk "github.com/shono09835/bosh-cli/v7/deployment/disk/fakes"
+	fakebisshtunnel "github.com/shono09835/bosh-cli/v7/deployment/sshtunnel/fakes"
+	fakebivm "github.com/shono09835/bosh-cli/v7/deployment/vm/fakes"
+	fakebiui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 )
 
 var _ = Describe("Instance", func() {

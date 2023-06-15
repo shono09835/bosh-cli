@@ -5,11 +5,11 @@ import (
 	boshsys "github.com/cloudfoundry/bosh-utils/system"
 	semver "github.com/cppforlife/go-semi-semantic/version"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	boshrel "github.com/cloudfoundry/bosh-cli/v7/release"
-	boshreldir "github.com/cloudfoundry/bosh-cli/v7/releasedir"
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	boshrel "github.com/shono09835/bosh-cli/v7/release"
+	boshreldir "github.com/shono09835/bosh-cli/v7/releasedir"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
 )
 
 type UploadReleaseCmd struct {

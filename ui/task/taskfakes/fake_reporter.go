@@ -4,7 +4,7 @@ package taskfakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/bosh-cli/v7/ui/task"
+	"github.com/shono09835/bosh-cli/v7/ui/task"
 )
 
 type FakeReporter struct {

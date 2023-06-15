@@ -3,9 +3,9 @@ package stemcellfakes
 import (
 	"fmt"
 
-	bicloud "github.com/cloudfoundry/bosh-cli/v7/cloud"
-	bistemcell "github.com/cloudfoundry/bosh-cli/v7/stemcell"
-	bitestutils "github.com/cloudfoundry/bosh-cli/v7/testutils"
+	bicloud "github.com/shono09835/bosh-cli/v7/cloud"
+	bistemcell "github.com/shono09835/bosh-cli/v7/stemcell"
+	bitestutils "github.com/shono09835/bosh-cli/v7/testutils"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 )
 

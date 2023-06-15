@@ -7,14 +7,14 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshpkg "github.com/cloudfoundry/bosh-cli/v7/release/pkg"
-	fakerel "github.com/cloudfoundry/bosh-cli/v7/release/releasefakes"
-	. "github.com/cloudfoundry/bosh-cli/v7/release/resource"
-	boshreldir "github.com/cloudfoundry/bosh-cli/v7/releasedir"
-	fakereldir "github.com/cloudfoundry/bosh-cli/v7/releasedir/releasedirfakes"
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshpkg "github.com/shono09835/bosh-cli/v7/release/pkg"
+	fakerel "github.com/shono09835/bosh-cli/v7/release/releasefakes"
+	. "github.com/shono09835/bosh-cli/v7/release/resource"
+	boshreldir "github.com/shono09835/bosh-cli/v7/releasedir"
+	fakereldir "github.com/shono09835/bosh-cli/v7/releasedir/releasedirfakes"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 )
 
 var _ = Describe("VendorPackageCmd", func() {

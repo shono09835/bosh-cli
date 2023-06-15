@@ -12,8 +12,8 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/ghttp"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/installation/tarball"
-	fakebiui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	. "github.com/shono09835/bosh-cli/v7/installation/tarball"
+	fakebiui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 	"github.com/cloudfoundry/bosh-utils/httpclient"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	boshsys "github.com/cloudfoundry/bosh-utils/system"

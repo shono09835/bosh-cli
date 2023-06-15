@@ -5,9 +5,9 @@ import (
 
 	semver "github.com/cppforlife/go-semi-semantic/version"
 
-	boshrel "github.com/cloudfoundry/bosh-cli/v7/release"
-	boshrelman "github.com/cloudfoundry/bosh-cli/v7/release/manifest"
-	boshpkg "github.com/cloudfoundry/bosh-cli/v7/release/pkg"
+	boshrel "github.com/shono09835/bosh-cli/v7/release"
+	boshrelman "github.com/shono09835/bosh-cli/v7/release/manifest"
+	boshpkg "github.com/shono09835/bosh-cli/v7/release/pkg"
 	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
 )
 

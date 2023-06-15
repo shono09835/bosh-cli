@@ -1,7 +1,7 @@
 package instance_test
 
 import (
-	. "github.com/cloudfoundry/bosh-cli/v7/deployment/instance"
+	. "github.com/shono09835/bosh-cli/v7/deployment/instance"
 
 	"errors"
 	"time"
@@ -9,24 +9,24 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	mock_agentclient "github.com/cloudfoundry/bosh-cli/v7/agentclient/mocks"
-	mock_blobstore "github.com/cloudfoundry/bosh-cli/v7/blobstore/mocks"
-	mock_instance_state "github.com/cloudfoundry/bosh-cli/v7/deployment/instance/state/mocks"
+	mock_agentclient "github.com/shono09835/bosh-cli/v7/agentclient/mocks"
+	mock_blobstore "github.com/shono09835/bosh-cli/v7/blobstore/mocks"
+	mock_instance_state "github.com/shono09835/bosh-cli/v7/deployment/instance/state/mocks"
 	"github.com/golang/mock/gomock"
 
 	bias "github.com/cloudfoundry/bosh-agent/agentclient/applyspec"
-	bidisk "github.com/cloudfoundry/bosh-cli/v7/deployment/disk"
-	bideplmanifest "github.com/cloudfoundry/bosh-cli/v7/deployment/manifest"
+	bidisk "github.com/shono09835/bosh-cli/v7/deployment/disk"
+	bideplmanifest "github.com/shono09835/bosh-cli/v7/deployment/manifest"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	biproperty "github.com/cloudfoundry/bosh-utils/property"
 
 	"github.com/cloudfoundry/bosh-agent/agentclient"
-	fakebicloud "github.com/cloudfoundry/bosh-cli/v7/cloud/fakes"
-	fakebidisk "github.com/cloudfoundry/bosh-cli/v7/deployment/disk/fakes"
-	fakebisshtunnel "github.com/cloudfoundry/bosh-cli/v7/deployment/sshtunnel/fakes"
-	fakebivm "github.com/cloudfoundry/bosh-cli/v7/deployment/vm/fakes"
-	fakebistemcell "github.com/cloudfoundry/bosh-cli/v7/stemcell/stemcellfakes"
-	fakebiui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	fakebicloud "github.com/shono09835/bosh-cli/v7/cloud/fakes"
+	fakebidisk "github.com/shono09835/bosh-cli/v7/deployment/disk/fakes"
+	fakebisshtunnel "github.com/shono09835/bosh-cli/v7/deployment/sshtunnel/fakes"
+	fakebivm "github.com/shono09835/bosh-cli/v7/deployment/vm/fakes"
+	fakebistemcell "github.com/shono09835/bosh-cli/v7/stemcell/stemcellfakes"
+	fakebiui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 )
 
 var _ = Describe("Manager", func() {

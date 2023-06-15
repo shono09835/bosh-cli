@@ -3,9 +3,9 @@ package deployment
 import (
 	"time"
 
-	bidisk "github.com/cloudfoundry/bosh-cli/v7/deployment/disk"
-	biinstance "github.com/cloudfoundry/bosh-cli/v7/deployment/instance"
-	bistemcell "github.com/cloudfoundry/bosh-cli/v7/stemcell"
+	bidisk "github.com/shono09835/bosh-cli/v7/deployment/disk"
+	biinstance "github.com/shono09835/bosh-cli/v7/deployment/instance"
+	bistemcell "github.com/shono09835/bosh-cli/v7/stemcell"
 )
 
 type Factory interface {

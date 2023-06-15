@@ -3,10 +3,10 @@ package cmd
 import (
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	boshtpl "github.com/cloudfoundry/bosh-cli/v7/director/template"
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	boshtpl "github.com/shono09835/bosh-cli/v7/director/template"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
 )
 
 type UpdateRuntimeConfigCmd struct {

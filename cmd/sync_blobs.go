@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	boshreldir "github.com/cloudfoundry/bosh-cli/v7/releasedir"
+	boshreldir "github.com/shono09835/bosh-cli/v7/releasedir"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 )
 

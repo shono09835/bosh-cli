@@ -4,8 +4,8 @@ import (
 	"errors"
 	"path/filepath"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/templatescompiler/erbrenderer"
-	fakebierbrenderer "github.com/cloudfoundry/bosh-cli/v7/templatescompiler/erbrenderer/fakes"
+	. "github.com/shono09835/bosh-cli/v7/templatescompiler/erbrenderer"
+	fakebierbrenderer "github.com/shono09835/bosh-cli/v7/templatescompiler/erbrenderer/fakes"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	boshsys "github.com/cloudfoundry/bosh-utils/system"
 	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"

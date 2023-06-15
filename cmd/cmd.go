@@ -8,22 +8,22 @@ import (
 	bihttpagent "github.com/cloudfoundry/bosh-agent/agentclient/http"
 	"github.com/cppforlife/go-patch/patch"
 
-	cmdconf "github.com/cloudfoundry/bosh-cli/v7/cmd/config"
-	"github.com/cloudfoundry/bosh-cli/v7/crypto"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	boshtpl "github.com/cloudfoundry/bosh-cli/v7/director/template"
-	boshrel "github.com/cloudfoundry/bosh-cli/v7/release"
-	boshreldir "github.com/cloudfoundry/bosh-cli/v7/releasedir"
-	boshssh "github.com/cloudfoundry/bosh-cli/v7/ssh"
-	bistemcell "github.com/cloudfoundry/bosh-cli/v7/stemcell"
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
-	boshuit "github.com/cloudfoundry/bosh-cli/v7/ui/task"
+	cmdconf "github.com/shono09835/bosh-cli/v7/cmd/config"
+	"github.com/shono09835/bosh-cli/v7/crypto"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	boshtpl "github.com/shono09835/bosh-cli/v7/director/template"
+	boshrel "github.com/shono09835/bosh-cli/v7/release"
+	boshreldir "github.com/shono09835/bosh-cli/v7/releasedir"
+	boshssh "github.com/shono09835/bosh-cli/v7/ssh"
+	bistemcell "github.com/shono09835/bosh-cli/v7/stemcell"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
+	boshuit "github.com/shono09835/bosh-cli/v7/ui/task"
 
 	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
 	boshfu "github.com/cloudfoundry/bosh-utils/fileutil"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshtbl "github.com/cloudfoundry/bosh-cli/v7/ui/table"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshtbl "github.com/shono09835/bosh-cli/v7/ui/table"
 )
 
 type Cmd struct {

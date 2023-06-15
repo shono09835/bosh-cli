@@ -4,9 +4,9 @@ package releasedirfakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/bosh-cli/v7/release"
-	"github.com/cloudfoundry/bosh-cli/v7/release/manifest"
-	"github.com/cloudfoundry/bosh-cli/v7/releasedir"
+	"github.com/shono09835/bosh-cli/v7/release"
+	"github.com/shono09835/bosh-cli/v7/release/manifest"
+	"github.com/shono09835/bosh-cli/v7/releasedir"
 	"github.com/cppforlife/go-semi-semantic/version"
 )
 

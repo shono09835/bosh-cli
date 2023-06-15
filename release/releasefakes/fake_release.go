@@ -4,11 +4,11 @@ package releasefakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/bosh-cli/v7/release"
-	"github.com/cloudfoundry/bosh-cli/v7/release/job"
-	"github.com/cloudfoundry/bosh-cli/v7/release/license"
-	"github.com/cloudfoundry/bosh-cli/v7/release/manifest"
-	"github.com/cloudfoundry/bosh-cli/v7/release/pkg"
+	"github.com/shono09835/bosh-cli/v7/release"
+	"github.com/shono09835/bosh-cli/v7/release/job"
+	"github.com/shono09835/bosh-cli/v7/release/license"
+	"github.com/shono09835/bosh-cli/v7/release/manifest"
+	"github.com/shono09835/bosh-cli/v7/release/pkg"
 )
 
 type FakeRelease struct {

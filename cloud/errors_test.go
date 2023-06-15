@@ -1,7 +1,7 @@
 package cloud_test
 
 import (
-	"github.com/cloudfoundry/bosh-cli/v7/cloud"
+	"github.com/shono09835/bosh-cli/v7/cloud"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

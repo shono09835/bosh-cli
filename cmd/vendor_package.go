@@ -5,9 +5,9 @@ import (
 
 	semver "github.com/cppforlife/go-semi-semantic/version"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshreldir "github.com/cloudfoundry/bosh-cli/v7/releasedir"
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshreldir "github.com/shono09835/bosh-cli/v7/releasedir"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
 )
 
 type VendorPackageCmd struct {

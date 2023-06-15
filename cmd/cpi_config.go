@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
 )
 
 type CPIConfigCmd struct {

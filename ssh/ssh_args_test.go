@@ -11,8 +11,8 @@ import (
 	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
 	proxy "github.com/cloudfoundry/socks5-proxy"
 
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	. "github.com/cloudfoundry/bosh-cli/v7/ssh"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	. "github.com/shono09835/bosh-cli/v7/ssh"
 )
 
 var _ = Describe("SSHArgs", func() {

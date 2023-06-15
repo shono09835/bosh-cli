@@ -9,8 +9,8 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/ghttp"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/director"
-	fakedir "github.com/cloudfoundry/bosh-cli/v7/director/directorfakes"
+	. "github.com/shono09835/bosh-cli/v7/director"
+	fakedir "github.com/shono09835/bosh-cli/v7/director/directorfakes"
 )
 
 var _ = Describe("Director", func() {

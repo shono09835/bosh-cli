@@ -5,10 +5,10 @@ import (
 
 	"code.cloudfoundry.org/workpool"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
-	boshtbl "github.com/cloudfoundry/bosh-cli/v7/ui/table"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
+	boshtbl "github.com/shono09835/bosh-cli/v7/ui/table"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 )
 

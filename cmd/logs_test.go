@@ -17,16 +17,16 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	mockagentclient "github.com/cloudfoundry/bosh-cli/v7/agentclient/mocks"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	fakecmd "github.com/cloudfoundry/bosh-cli/v7/cmd/cmdfakes"
-	"github.com/cloudfoundry/bosh-cli/v7/cmd/mocks"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	fakedir "github.com/cloudfoundry/bosh-cli/v7/director/directorfakes"
-	boshssh "github.com/cloudfoundry/bosh-cli/v7/ssh"
-	fakessh "github.com/cloudfoundry/bosh-cli/v7/ssh/sshfakes"
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	mockagentclient "github.com/shono09835/bosh-cli/v7/agentclient/mocks"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	fakecmd "github.com/shono09835/bosh-cli/v7/cmd/cmdfakes"
+	"github.com/shono09835/bosh-cli/v7/cmd/mocks"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	fakedir "github.com/shono09835/bosh-cli/v7/director/directorfakes"
+	boshssh "github.com/shono09835/bosh-cli/v7/ssh"
+	fakessh "github.com/shono09835/bosh-cli/v7/ssh/sshfakes"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 )
 
 var _ = Describe("Logs", func() {

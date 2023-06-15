@@ -4,13 +4,13 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
 
 	"errors"
 
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	fakedir "github.com/cloudfoundry/bosh-cli/v7/director/directorfakes"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	fakedir "github.com/shono09835/bosh-cli/v7/director/directorfakes"
 )
 
 var _ = Describe("UnignoreCmd", func() {

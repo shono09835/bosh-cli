@@ -6,14 +6,14 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
 
-	fakecmd "github.com/cloudfoundry/bosh-cli/v7/cmd/cmdfakes"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	fakedir "github.com/cloudfoundry/bosh-cli/v7/director/directorfakes"
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
-	boshtbl "github.com/cloudfoundry/bosh-cli/v7/ui/table"
+	fakecmd "github.com/shono09835/bosh-cli/v7/cmd/cmdfakes"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	fakedir "github.com/shono09835/bosh-cli/v7/director/directorfakes"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
+	boshtbl "github.com/shono09835/bosh-cli/v7/ui/table"
 )
 
 var _ = Describe("RunErrandCmd", func() {

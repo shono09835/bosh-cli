@@ -8,7 +8,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	bilog "github.com/cloudfoundry/bosh-cli/v7/logger"
+	bilog "github.com/shono09835/bosh-cli/v7/logger"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 )
 

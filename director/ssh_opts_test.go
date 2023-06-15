@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/gomega"
 	"golang.org/x/crypto/ssh"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/director"
+	. "github.com/shono09835/bosh-cli/v7/director"
 )
 
 var _ = Describe("NewSSHOpts", func() {

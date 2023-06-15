@@ -12,10 +12,10 @@ import (
 	boshlogfile "github.com/cloudfoundry/bosh-utils/logger/file"
 	boshsys "github.com/cloudfoundry/bosh-utils/system"
 
-	boshcmd "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	bilog "github.com/cloudfoundry/bosh-cli/v7/logger"
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
-	boshuifmt "github.com/cloudfoundry/bosh-cli/v7/ui/fmt"
+	boshcmd "github.com/shono09835/bosh-cli/v7/cmd"
+	bilog "github.com/shono09835/bosh-cli/v7/logger"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
+	boshuifmt "github.com/shono09835/bosh-cli/v7/ui/fmt"
 )
 
 func main() {

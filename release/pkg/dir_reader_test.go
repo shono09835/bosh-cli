@@ -9,10 +9,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/release/pkg"
-	. "github.com/cloudfoundry/bosh-cli/v7/release/resource"
+	. "github.com/shono09835/bosh-cli/v7/release/pkg"
+	. "github.com/shono09835/bosh-cli/v7/release/resource"
 
-	fakeres "github.com/cloudfoundry/bosh-cli/v7/release/resource/resourcefakes"
+	fakeres "github.com/shono09835/bosh-cli/v7/release/resource/resourcefakes"
 	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
 )
 

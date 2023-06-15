@@ -1,7 +1,7 @@
 package ui
 
 import (
-	. "github.com/cloudfoundry/bosh-cli/v7/ui/table"
+	. "github.com/shono09835/bosh-cli/v7/ui/table"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 )
 

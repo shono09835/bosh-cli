@@ -3,7 +3,7 @@ package director_test
 import (
 	"net/http"
 
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

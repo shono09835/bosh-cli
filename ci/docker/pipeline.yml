@@ -23,7 +23,7 @@ resources:
   - name: bosh-cli-src
     type: git
     source:
-      uri: https://github.com/cloudfoundry/bosh-cli.git
+      uri: https://github.com/shono09835/bosh-cli.git
       paths:
         - "ci/docker"
 

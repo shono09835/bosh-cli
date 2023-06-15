@@ -5,10 +5,10 @@ import (
 	"github.com/cppforlife/go-patch/patch"
 	semver "github.com/cppforlife/go-semi-semantic/version"
 
-	cmdopts "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	boshtpl "github.com/cloudfoundry/bosh-cli/v7/director/template"
-	boshrel "github.com/cloudfoundry/bosh-cli/v7/release"
+	cmdopts "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	boshtpl "github.com/shono09835/bosh-cli/v7/director/template"
+	boshrel "github.com/shono09835/bosh-cli/v7/release"
 	"github.com/cloudfoundry/bosh-utils/work"
 )
 

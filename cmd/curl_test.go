@@ -10,10 +10,10 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/ghttp"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 )
 
 var _ = Describe("CurlCmd", func() {

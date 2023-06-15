@@ -5,10 +5,10 @@ import (
 
 	"fmt"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	biui "github.com/cloudfoundry/bosh-cli/v7/ui"
-	boshtbl "github.com/cloudfoundry/bosh-cli/v7/ui/table"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	biui "github.com/shono09835/bosh-cli/v7/ui"
+	boshtbl "github.com/shono09835/bosh-cli/v7/ui/table"
 )
 
 type RunErrandCmd struct {

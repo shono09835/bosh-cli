@@ -3,17 +3,17 @@ package cmd_test
 import (
 	"errors"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/release/resource"
+	. "github.com/shono09835/bosh-cli/v7/release/resource"
 
-	boshjob "github.com/cloudfoundry/bosh-cli/v7/release/job"
-	boshpkg "github.com/cloudfoundry/bosh-cli/v7/release/pkg"
+	boshjob "github.com/shono09835/bosh-cli/v7/release/job"
+	boshpkg "github.com/shono09835/bosh-cli/v7/release/pkg"
 
-	fakerel "github.com/cloudfoundry/bosh-cli/v7/release/releasefakes"
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
-	boshtbl "github.com/cloudfoundry/bosh-cli/v7/ui/table"
+	fakerel "github.com/shono09835/bosh-cli/v7/release/releasefakes"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
+	boshtbl "github.com/shono09835/bosh-cli/v7/ui/table"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

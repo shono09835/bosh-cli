@@ -11,8 +11,8 @@ import (
 	semver "github.com/cppforlife/go-semi-semantic/version"
 	"gopkg.in/yaml.v2"
 
-	boshrel "github.com/cloudfoundry/bosh-cli/v7/release"
-	boshrelman "github.com/cloudfoundry/bosh-cli/v7/release/manifest"
+	boshrel "github.com/shono09835/bosh-cli/v7/release"
+	boshrelman "github.com/shono09835/bosh-cli/v7/release/manifest"
 )
 
 type FSReleaseIndex struct {

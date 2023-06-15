@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"time"
 
-	boshuifmt "github.com/cloudfoundry/bosh-cli/v7/ui/fmt"
+	boshuifmt "github.com/shono09835/bosh-cli/v7/ui/fmt"
 )
 
 const (

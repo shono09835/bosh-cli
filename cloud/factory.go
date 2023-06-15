@@ -1,7 +1,7 @@
 package cloud
 
 import (
-	biinstall "github.com/cloudfoundry/bosh-cli/v7/installation"
+	biinstall "github.com/shono09835/bosh-cli/v7/installation"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	boshsys "github.com/cloudfoundry/bosh-utils/system"

@@ -6,8 +6,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/uaa"
-	fakeuaa "github.com/cloudfoundry/bosh-cli/v7/uaa/uaafakes"
+	. "github.com/shono09835/bosh-cli/v7/uaa"
+	fakeuaa "github.com/shono09835/bosh-cli/v7/uaa/uaafakes"
 )
 
 var _ = Describe("ClientTokenSession", func() {

@@ -4,7 +4,7 @@ package releasedirfakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/bosh-cli/v7/releasedir"
+	"github.com/shono09835/bosh-cli/v7/releasedir"
 	"github.com/cloudfoundry/bosh-utils/crypto"
 )
 

@@ -6,16 +6,16 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	bicloud "github.com/cloudfoundry/bosh-cli/v7/cloud"
-	biconfig "github.com/cloudfoundry/bosh-cli/v7/config"
+	bicloud "github.com/shono09835/bosh-cli/v7/cloud"
+	biconfig "github.com/shono09835/bosh-cli/v7/config"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	biproperty "github.com/cloudfoundry/bosh-utils/property"
 	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
 	fakeuuid "github.com/cloudfoundry/bosh-utils/uuid/fakes"
 
-	fakebicloud "github.com/cloudfoundry/bosh-cli/v7/cloud/fakes"
+	fakebicloud "github.com/shono09835/bosh-cli/v7/cloud/fakes"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/deployment/disk"
+	. "github.com/shono09835/bosh-cli/v7/deployment/disk"
 )
 
 var _ = Describe("Disk", func() {

@@ -1,7 +1,7 @@
 package blobstore_test
 
 import (
-	. "github.com/cloudfoundry/bosh-cli/v7/blobstore"
+	. "github.com/shono09835/bosh-cli/v7/blobstore"
 
 	"net/http"
 

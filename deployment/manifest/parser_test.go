@@ -1,11 +1,11 @@
 package manifest_test
 
 import (
-	. "github.com/cloudfoundry/bosh-cli/v7/deployment/manifest"
+	. "github.com/shono09835/bosh-cli/v7/deployment/manifest"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	bidepltpl "github.com/cloudfoundry/bosh-cli/v7/deployment/template"
+	bidepltpl "github.com/shono09835/bosh-cli/v7/deployment/template"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	biproperty "github.com/cloudfoundry/bosh-utils/property"
 	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"

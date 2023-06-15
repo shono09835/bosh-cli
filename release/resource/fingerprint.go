@@ -10,7 +10,7 @@ import (
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 	boshsys "github.com/cloudfoundry/bosh-utils/system"
 
-	bicrypto "github.com/cloudfoundry/bosh-cli/v7/crypto"
+	bicrypto "github.com/shono09835/bosh-cli/v7/crypto"
 )
 
 type FingerprinterImpl struct {

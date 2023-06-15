@@ -1,7 +1,7 @@
 package manifestfakes
 
 import (
-	bideplmanifest "github.com/cloudfoundry/bosh-cli/v7/deployment/manifest"
+	bideplmanifest "github.com/shono09835/bosh-cli/v7/deployment/manifest"
 	biproperty "github.com/cloudfoundry/bosh-utils/property"
 )
 

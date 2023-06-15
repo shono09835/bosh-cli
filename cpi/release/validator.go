@@ -1,7 +1,7 @@
 package release
 
 import (
-	birel "github.com/cloudfoundry/bosh-cli/v7/release"
+	birel "github.com/shono09835/bosh-cli/v7/release"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 )
 

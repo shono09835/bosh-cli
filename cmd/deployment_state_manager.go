@@ -6,13 +6,13 @@ import (
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	"github.com/cppforlife/go-patch/patch"
 
-	biconfig "github.com/cloudfoundry/bosh-cli/v7/config"
-	bidepl "github.com/cloudfoundry/bosh-cli/v7/deployment"
-	bideplmanifest "github.com/cloudfoundry/bosh-cli/v7/deployment/manifest"
-	boshtpl "github.com/cloudfoundry/bosh-cli/v7/director/template"
-	biinstallmanifest "github.com/cloudfoundry/bosh-cli/v7/installation/manifest"
-	birelsetmanifest "github.com/cloudfoundry/bosh-cli/v7/release/set/manifest"
-	biui "github.com/cloudfoundry/bosh-cli/v7/ui"
+	biconfig "github.com/shono09835/bosh-cli/v7/config"
+	bidepl "github.com/shono09835/bosh-cli/v7/deployment"
+	bideplmanifest "github.com/shono09835/bosh-cli/v7/deployment/manifest"
+	boshtpl "github.com/shono09835/bosh-cli/v7/director/template"
+	biinstallmanifest "github.com/shono09835/bosh-cli/v7/installation/manifest"
+	birelsetmanifest "github.com/shono09835/bosh-cli/v7/release/set/manifest"
+	biui "github.com/shono09835/bosh-cli/v7/ui"
 )
 
 type DeploymentStateManager interface {

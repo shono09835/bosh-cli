@@ -4,18 +4,18 @@ import (
 	"fmt"
 	"net/http"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/cloudfoundry/bosh-cli/v7/cmd/config/configfakes"
+	"github.com/shono09835/bosh-cli/v7/cmd/config/configfakes"
 	"github.com/onsi/gomega/ghttp"
 
-	cmdconf "github.com/cloudfoundry/bosh-cli/v7/cmd/config"
+	cmdconf "github.com/shono09835/bosh-cli/v7/cmd/config"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 
-	fakecmd "github.com/cloudfoundry/bosh-cli/v7/cmd/cmdfakes"
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	fakecmd "github.com/shono09835/bosh-cli/v7/cmd/cmdfakes"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 )
 
 var _ = Describe("SessionImpl", func() {

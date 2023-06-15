@@ -12,7 +12,7 @@ import (
 	"github.com/dustin/go-humanize"
 	"gopkg.in/yaml.v2"
 
-	boshuifmt "github.com/cloudfoundry/bosh-cli/v7/ui/fmt"
+	boshuifmt "github.com/shono09835/bosh-cli/v7/ui/fmt"
 )
 
 func NewValueString(s string) ValueString { return ValueString{S: s} }

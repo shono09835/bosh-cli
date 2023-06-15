@@ -17,11 +17,11 @@ import (
 	boshsys "github.com/cloudfoundry/bosh-utils/system"
 	boshuuid "github.com/cloudfoundry/bosh-utils/uuid"
 
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	boshssh "github.com/cloudfoundry/bosh-cli/v7/ssh"
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	boshssh "github.com/shono09835/bosh-cli/v7/ssh"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
 )
 
 type LogsCmd struct {

@@ -3,14 +3,14 @@ package cmd_test
 import (
 	"errors"
 
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	fakereldir "github.com/cloudfoundry/bosh-cli/v7/releasedir/releasedirfakes"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	fakereldir "github.com/shono09835/bosh-cli/v7/releasedir/releasedirfakes"
 )
 
 var _ = Describe("RemoveBlobCmd", func() {

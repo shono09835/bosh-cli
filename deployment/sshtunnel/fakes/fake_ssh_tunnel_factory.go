@@ -1,7 +1,7 @@
 package fakes
 
 import (
-	bisshtunnel "github.com/cloudfoundry/bosh-cli/v7/deployment/sshtunnel"
+	bisshtunnel "github.com/shono09835/bosh-cli/v7/deployment/sshtunnel"
 )
 
 type FakeFactory struct {

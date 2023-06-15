@@ -6,9 +6,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	fakedir "github.com/cloudfoundry/bosh-cli/v7/director/directorfakes"
-	boshssh "github.com/cloudfoundry/bosh-cli/v7/ssh"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	fakedir "github.com/shono09835/bosh-cli/v7/director/directorfakes"
+	boshssh "github.com/shono09835/bosh-cli/v7/ssh"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 )
 

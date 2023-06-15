@@ -10,9 +10,9 @@ import (
 	boshsys "github.com/cloudfoundry/bosh-utils/system"
 	boshuuid "github.com/cloudfoundry/bosh-utils/uuid"
 
-	bicrypto "github.com/cloudfoundry/bosh-cli/v7/crypto"
-	boshrel "github.com/cloudfoundry/bosh-cli/v7/release"
-	boshidx "github.com/cloudfoundry/bosh-cli/v7/releasedir/index"
+	bicrypto "github.com/shono09835/bosh-cli/v7/crypto"
+	boshrel "github.com/shono09835/bosh-cli/v7/release"
+	boshidx "github.com/shono09835/bosh-cli/v7/releasedir/index"
 	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
 )
 

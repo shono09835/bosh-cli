@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshtpl "github.com/cloudfoundry/bosh-cli/v7/director/template"
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshtpl "github.com/shono09835/bosh-cli/v7/director/template"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
 	"github.com/cppforlife/go-patch/patch"
 )
 

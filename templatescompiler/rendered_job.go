@@ -3,7 +3,7 @@ package templatescompiler
 import (
 	"fmt"
 
-	bireljob "github.com/cloudfoundry/bosh-cli/v7/release/job"
+	bireljob "github.com/shono09835/bosh-cli/v7/release/job"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	boshsys "github.com/cloudfoundry/bosh-utils/system"

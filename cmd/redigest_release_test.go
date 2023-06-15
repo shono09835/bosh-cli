@@ -1,27 +1,27 @@
 package cmd_test
 
 import (
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/release/resource"
+	. "github.com/shono09835/bosh-cli/v7/release/resource"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	boshrel "github.com/cloudfoundry/bosh-cli/v7/release"
-	boshjob "github.com/cloudfoundry/bosh-cli/v7/release/job"
-	boshpkg "github.com/cloudfoundry/bosh-cli/v7/release/pkg"
-	boshtbl "github.com/cloudfoundry/bosh-cli/v7/ui/table"
+	boshrel "github.com/shono09835/bosh-cli/v7/release"
+	boshjob "github.com/shono09835/bosh-cli/v7/release/job"
+	boshpkg "github.com/shono09835/bosh-cli/v7/release/pkg"
+	boshtbl "github.com/shono09835/bosh-cli/v7/ui/table"
 
-	fakecrypto "github.com/cloudfoundry/bosh-cli/v7/crypto/fakes"
-	fakerel "github.com/cloudfoundry/bosh-cli/v7/release/releasefakes"
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	fakecrypto "github.com/shono09835/bosh-cli/v7/crypto/fakes"
+	fakerel "github.com/shono09835/bosh-cli/v7/release/releasefakes"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 	fakefu "github.com/cloudfoundry/bosh-utils/fileutil/fakes"
 	fakes2 "github.com/cloudfoundry/bosh-utils/system/fakes"
 
-	"github.com/cloudfoundry/bosh-cli/v7/crypto/fakes"
-	"github.com/cloudfoundry/bosh-cli/v7/release/license"
+	"github.com/shono09835/bosh-cli/v7/crypto/fakes"
+	"github.com/shono09835/bosh-cli/v7/release/license"
 	"github.com/cloudfoundry/bosh-utils/errors"
 )
 

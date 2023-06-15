@@ -3,7 +3,7 @@ package config_test
 import (
 	"fmt"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/config"
+	. "github.com/shono09835/bosh-cli/v7/config"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
 	fakeuuid "github.com/cloudfoundry/bosh-utils/uuid/fakes"

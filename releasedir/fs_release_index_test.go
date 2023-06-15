@@ -11,10 +11,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	boshman "github.com/cloudfoundry/bosh-cli/v7/release/manifest"
-	fakerel "github.com/cloudfoundry/bosh-cli/v7/release/releasefakes"
-	. "github.com/cloudfoundry/bosh-cli/v7/releasedir"
-	fakereldir "github.com/cloudfoundry/bosh-cli/v7/releasedir/releasedirfakes"
+	boshman "github.com/shono09835/bosh-cli/v7/release/manifest"
+	fakerel "github.com/shono09835/bosh-cli/v7/release/releasefakes"
+	. "github.com/shono09835/bosh-cli/v7/releasedir"
+	fakereldir "github.com/shono09835/bosh-cli/v7/releasedir/releasedirfakes"
 )
 
 var _ = Describe("FSReleaseIndex", func() {

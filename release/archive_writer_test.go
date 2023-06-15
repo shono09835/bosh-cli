@@ -11,13 +11,13 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/release"
-	boshjob "github.com/cloudfoundry/bosh-cli/v7/release/job"
-	boshlic "github.com/cloudfoundry/bosh-cli/v7/release/license"
-	boshman "github.com/cloudfoundry/bosh-cli/v7/release/manifest"
-	boshpkg "github.com/cloudfoundry/bosh-cli/v7/release/pkg"
-	fakerel "github.com/cloudfoundry/bosh-cli/v7/release/releasefakes"
-	. "github.com/cloudfoundry/bosh-cli/v7/release/resource"
+	. "github.com/shono09835/bosh-cli/v7/release"
+	boshjob "github.com/shono09835/bosh-cli/v7/release/job"
+	boshlic "github.com/shono09835/bosh-cli/v7/release/license"
+	boshman "github.com/shono09835/bosh-cli/v7/release/manifest"
+	boshpkg "github.com/shono09835/bosh-cli/v7/release/pkg"
+	fakerel "github.com/shono09835/bosh-cli/v7/release/releasefakes"
+	. "github.com/shono09835/bosh-cli/v7/release/resource"
 )
 
 var _ = Describe("ArchiveWriter", func() {

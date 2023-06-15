@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshreldir "github.com/cloudfoundry/bosh-cli/v7/releasedir"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshreldir "github.com/shono09835/bosh-cli/v7/releasedir"
 )
 
 type GeneratePackageCmd struct {

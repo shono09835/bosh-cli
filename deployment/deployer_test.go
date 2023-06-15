@@ -3,32 +3,32 @@ package deployment_test
 import (
 	"time"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/deployment"
+	. "github.com/shono09835/bosh-cli/v7/deployment"
 
 	mock_httpagent "github.com/cloudfoundry/bosh-agent/agentclient/http/mocks"
-	mock_agentclient "github.com/cloudfoundry/bosh-cli/v7/agentclient/mocks"
-	mock_blobstore "github.com/cloudfoundry/bosh-cli/v7/blobstore/mocks"
-	mock_instance_state "github.com/cloudfoundry/bosh-cli/v7/deployment/instance/state/mocks"
-	mock_vm "github.com/cloudfoundry/bosh-cli/v7/deployment/vm/mocks"
+	mock_agentclient "github.com/shono09835/bosh-cli/v7/agentclient/mocks"
+	mock_blobstore "github.com/shono09835/bosh-cli/v7/blobstore/mocks"
+	mock_instance_state "github.com/shono09835/bosh-cli/v7/deployment/instance/state/mocks"
+	mock_vm "github.com/shono09835/bosh-cli/v7/deployment/vm/mocks"
 	"github.com/golang/mock/gomock"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
 	bias "github.com/cloudfoundry/bosh-agent/agentclient/applyspec"
-	biconfig "github.com/cloudfoundry/bosh-cli/v7/config"
-	biinstance "github.com/cloudfoundry/bosh-cli/v7/deployment/instance"
-	bideplmanifest "github.com/cloudfoundry/bosh-cli/v7/deployment/manifest"
-	bistemcell "github.com/cloudfoundry/bosh-cli/v7/stemcell"
+	biconfig "github.com/shono09835/bosh-cli/v7/config"
+	biinstance "github.com/shono09835/bosh-cli/v7/deployment/instance"
+	bideplmanifest "github.com/shono09835/bosh-cli/v7/deployment/manifest"
+	bistemcell "github.com/shono09835/bosh-cli/v7/stemcell"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	biproperty "github.com/cloudfoundry/bosh-utils/property"
 
 	"github.com/cloudfoundry/bosh-agent/agentclient"
-	fakebicloud "github.com/cloudfoundry/bosh-cli/v7/cloud/fakes"
-	fakebiconfig "github.com/cloudfoundry/bosh-cli/v7/config/fakes"
-	fakebisshtunnel "github.com/cloudfoundry/bosh-cli/v7/deployment/sshtunnel/fakes"
-	fakebivm "github.com/cloudfoundry/bosh-cli/v7/deployment/vm/fakes"
-	fakebiui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	fakebicloud "github.com/shono09835/bosh-cli/v7/cloud/fakes"
+	fakebiconfig "github.com/shono09835/bosh-cli/v7/config/fakes"
+	fakebisshtunnel "github.com/shono09835/bosh-cli/v7/deployment/sshtunnel/fakes"
+	fakebivm "github.com/shono09835/bosh-cli/v7/deployment/vm/fakes"
+	fakebiui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 )
 
 var _ = Describe("Deployer", func() {

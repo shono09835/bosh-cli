@@ -1,4 +1,4 @@
-module github.com/cloudfoundry/bosh-cli/v7
+module github.com/shono09835/bosh-cli/v7
 
 go 1.20
 
@@ -11,7 +11,7 @@ require (
 	github.com/cloudfoundry/bosh-gcscli v0.0.129
 	github.com/cloudfoundry/bosh-s3cli v0.0.200
 	github.com/cloudfoundry/bosh-utils v0.0.366
-	github.com/cloudfoundry/config-server v0.1.124
+	github.com/shono09835/config-server v0.1.124
 	github.com/cloudfoundry/socks5-proxy v0.2.91
 	github.com/cppforlife/go-patch v0.2.0
 	github.com/cppforlife/go-semi-semantic v0.0.0-20160921010311-576b6af77ae4

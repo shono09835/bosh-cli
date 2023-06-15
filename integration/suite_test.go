@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudfoundry/bosh-cli/v7/testutils"
-	bitestutils "github.com/cloudfoundry/bosh-cli/v7/testutils"
+	"github.com/shono09835/bosh-cli/v7/testutils"
+	bitestutils "github.com/shono09835/bosh-cli/v7/testutils"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

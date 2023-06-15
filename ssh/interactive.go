@@ -6,7 +6,7 @@ import (
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 	boshsys "github.com/cloudfoundry/bosh-utils/system"
 
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
 )
 
 type InteractiveRunner struct {

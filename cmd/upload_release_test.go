@@ -8,16 +8,16 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	fakedir "github.com/cloudfoundry/bosh-cli/v7/director/directorfakes"
-	boshrel "github.com/cloudfoundry/bosh-cli/v7/release"
-	boshman "github.com/cloudfoundry/bosh-cli/v7/release/manifest"
-	fakerel "github.com/cloudfoundry/bosh-cli/v7/release/releasefakes"
-	boshreldir "github.com/cloudfoundry/bosh-cli/v7/releasedir"
-	fakereldir "github.com/cloudfoundry/bosh-cli/v7/releasedir/releasedirfakes"
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	fakedir "github.com/shono09835/bosh-cli/v7/director/directorfakes"
+	boshrel "github.com/shono09835/bosh-cli/v7/release"
+	boshman "github.com/shono09835/bosh-cli/v7/release/manifest"
+	fakerel "github.com/shono09835/bosh-cli/v7/release/releasefakes"
+	boshreldir "github.com/shono09835/bosh-cli/v7/releasedir"
+	fakereldir "github.com/shono09835/bosh-cli/v7/releasedir/releasedirfakes"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 )
 
 var _ = Describe("UploadReleaseCmd", func() {

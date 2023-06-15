@@ -6,10 +6,10 @@ import (
 	bihttpagent "github.com/cloudfoundry/bosh-agent/agentclient/http"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	boshssh "github.com/cloudfoundry/bosh-cli/v7/ssh"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	boshssh "github.com/shono09835/bosh-cli/v7/ssh"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
 )
 
 type SCPCmd struct {

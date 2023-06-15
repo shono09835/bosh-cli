@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/ghttp"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/director"
+	. "github.com/shono09835/bosh-cli/v7/director"
 )
 
 var _ = Describe("Director", func() {

@@ -1,9 +1,9 @@
 package ui_test
 
 import (
-	. "github.com/cloudfoundry/bosh-cli/v7/ui"
+	. "github.com/shono09835/bosh-cli/v7/ui"
 
-	"github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	"github.com/shono09835/bosh-cli/v7/ui/fakes"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

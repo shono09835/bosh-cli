@@ -4,8 +4,8 @@ package cmdfakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/bosh-cli/v7/cmd"
-	"github.com/cloudfoundry/bosh-cli/v7/cmd/config"
+	"github.com/shono09835/bosh-cli/v7/cmd"
+	"github.com/shono09835/bosh-cli/v7/cmd/config"
 )
 
 type FakeSessionContext struct {

@@ -3,12 +3,12 @@ package cmd_test
 import (
 	"errors"
 
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	fakedir "github.com/cloudfoundry/bosh-cli/v7/director/directorfakes"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	fakedir "github.com/shono09835/bosh-cli/v7/director/directorfakes"
 )
 
 var _ = Describe("ManifestCmd", func() {

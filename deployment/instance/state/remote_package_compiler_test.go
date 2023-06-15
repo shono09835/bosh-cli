@@ -2,17 +2,17 @@ package state_test
 
 import (
 	biagentclient "github.com/cloudfoundry/bosh-agent/agentclient"
-	mock_agentclient "github.com/cloudfoundry/bosh-cli/v7/agentclient/mocks"
+	mock_agentclient "github.com/shono09835/bosh-cli/v7/agentclient/mocks"
 	"github.com/golang/mock/gomock"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	mock_blobstore "github.com/cloudfoundry/bosh-cli/v7/blobstore/mocks"
-	. "github.com/cloudfoundry/bosh-cli/v7/deployment/instance/state"
-	biindex "github.com/cloudfoundry/bosh-cli/v7/index"
-	boshpkg "github.com/cloudfoundry/bosh-cli/v7/release/pkg"
-	. "github.com/cloudfoundry/bosh-cli/v7/release/resource"
-	bistatepkg "github.com/cloudfoundry/bosh-cli/v7/state/pkg"
+	mock_blobstore "github.com/shono09835/bosh-cli/v7/blobstore/mocks"
+	. "github.com/shono09835/bosh-cli/v7/deployment/instance/state"
+	biindex "github.com/shono09835/bosh-cli/v7/index"
+	boshpkg "github.com/shono09835/bosh-cli/v7/release/pkg"
+	. "github.com/shono09835/bosh-cli/v7/release/resource"
+	bistatepkg "github.com/shono09835/bosh-cli/v7/state/pkg"
 )
 
 var _ = Describe("RemotePackageCompiler", func() {

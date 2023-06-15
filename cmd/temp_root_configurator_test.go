@@ -10,7 +10,7 @@ import (
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	boshsys "github.com/cloudfoundry/bosh-utils/system"
 
-	"github.com/cloudfoundry/bosh-cli/v7/cmd"
+	"github.com/shono09835/bosh-cli/v7/cmd"
 )
 
 var _ = Describe("TempRootConfigurator", func() {

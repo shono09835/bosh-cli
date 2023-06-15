@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	boshui "github.com/cloudfoundry/bosh-cli/v7/ui"
+	boshui "github.com/shono09835/bosh-cli/v7/ui"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

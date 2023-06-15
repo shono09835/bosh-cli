@@ -3,7 +3,7 @@ package director_test
 import (
 	"crypto/tls"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/director"
+	. "github.com/shono09835/bosh-cli/v7/director"
 	. "github.com/onsi/gomega"
 
 	"github.com/onsi/gomega/ghttp"

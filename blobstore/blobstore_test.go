@@ -8,7 +8,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/blobstore"
+	. "github.com/shono09835/bosh-cli/v7/blobstore"
 	fakeboshdavcli "github.com/cloudfoundry/bosh-davcli/client/fakes"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"
 	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"

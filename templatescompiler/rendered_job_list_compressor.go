@@ -3,7 +3,7 @@ package templatescompiler
 import (
 	"path/filepath"
 
-	bicrypto "github.com/cloudfoundry/bosh-cli/v7/crypto"
+	bicrypto "github.com/shono09835/bosh-cli/v7/crypto"
 	bosherr "github.com/cloudfoundry/bosh-utils/errors"
 	boshcmd "github.com/cloudfoundry/bosh-utils/fileutil"
 	boshlog "github.com/cloudfoundry/bosh-utils/logger"

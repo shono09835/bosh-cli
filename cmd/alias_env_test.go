@@ -6,15 +6,15 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	fakecmd "github.com/cloudfoundry/bosh-cli/v7/cmd/cmdfakes"
-	cmdconf "github.com/cloudfoundry/bosh-cli/v7/cmd/config"
-	fakecmdconf "github.com/cloudfoundry/bosh-cli/v7/cmd/config/configfakes"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshdir "github.com/cloudfoundry/bosh-cli/v7/director"
-	fakedir "github.com/cloudfoundry/bosh-cli/v7/director/directorfakes"
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
-	boshtbl "github.com/cloudfoundry/bosh-cli/v7/ui/table"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	fakecmd "github.com/shono09835/bosh-cli/v7/cmd/cmdfakes"
+	cmdconf "github.com/shono09835/bosh-cli/v7/cmd/config"
+	fakecmdconf "github.com/shono09835/bosh-cli/v7/cmd/config/configfakes"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshdir "github.com/shono09835/bosh-cli/v7/director"
+	fakedir "github.com/shono09835/bosh-cli/v7/director/directorfakes"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
+	boshtbl "github.com/shono09835/bosh-cli/v7/ui/table"
 )
 
 var _ = Describe("AliasEnvCmd", func() {

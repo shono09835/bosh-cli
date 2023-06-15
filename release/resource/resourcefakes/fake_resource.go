@@ -4,8 +4,8 @@ package resourcefakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/bosh-cli/v7/crypto"
-	"github.com/cloudfoundry/bosh-cli/v7/release/resource"
+	"github.com/shono09835/bosh-cli/v7/crypto"
+	"github.com/shono09835/bosh-cli/v7/release/resource"
 	cryptoa "github.com/cloudfoundry/bosh-utils/crypto"
 )
 

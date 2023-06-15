@@ -7,14 +7,14 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd"
-	. "github.com/cloudfoundry/bosh-cli/v7/cmd/opts"
-	boshrel "github.com/cloudfoundry/bosh-cli/v7/release"
-	fakerel "github.com/cloudfoundry/bosh-cli/v7/release/releasefakes"
-	boshreldir "github.com/cloudfoundry/bosh-cli/v7/releasedir"
-	fakereldir "github.com/cloudfoundry/bosh-cli/v7/releasedir/releasedirfakes"
-	fakeui "github.com/cloudfoundry/bosh-cli/v7/ui/fakes"
-	boshtbl "github.com/cloudfoundry/bosh-cli/v7/ui/table"
+	. "github.com/shono09835/bosh-cli/v7/cmd"
+	. "github.com/shono09835/bosh-cli/v7/cmd/opts"
+	boshrel "github.com/shono09835/bosh-cli/v7/release"
+	fakerel "github.com/shono09835/bosh-cli/v7/release/releasefakes"
+	boshreldir "github.com/shono09835/bosh-cli/v7/releasedir"
+	fakereldir "github.com/shono09835/bosh-cli/v7/releasedir/releasedirfakes"
+	fakeui "github.com/shono09835/bosh-cli/v7/ui/fakes"
+	boshtbl "github.com/shono09835/bosh-cli/v7/ui/table"
 	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
 )
 

@@ -3,7 +3,7 @@ package stemcellfakes
 import (
 	"fmt"
 
-	bistemcell "github.com/cloudfoundry/bosh-cli/v7/stemcell"
+	bistemcell "github.com/shono09835/bosh-cli/v7/stemcell"
 )
 
 type ReadInput struct {
