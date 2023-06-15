@@ -1,5 +1,6 @@
 name: go
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -9,7 +10,7 @@ jobs:
     strategy:
       matrix:
         go: [1.18]
-        os: [macos-latest, ubuntu-latest]
+        os: [ubuntu-latest]
     name: lint
     runs-on: ${{ matrix.os }}
     steps:
